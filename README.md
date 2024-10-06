@@ -2,7 +2,7 @@
 As students, we know how hard it is to stay focused and motivated during the times that you need to stay focused and motivated the most.
 For this reason, we have created Productivity Pets, an Adobe Express add-on so you can keep motivated while making the ten billionth meaningless edit to your marketing copy. 
 
-Making changes and doing work on your Adobe Express project will earn you money and experience for your little guy. Enough money and you can buy cosmhatetics to spice up your environment. Enough experience and your pet will level up and progress on it's way to it's final form. 
+Making changes and doing work on your Adobe Express project will earn you money and experience for your little guy. Enough money and you can buy cosmetics to spice up your environment. Enough experience and your pet will level up and progress on it's way to it's final form. 
 
 
 ## Features  

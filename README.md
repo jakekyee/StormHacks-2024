@@ -17,3 +17,9 @@ Making changes and doing work on your Adobe Express project will earn you money 
 # CURRENT RELEASE  
 
 https://adobesparkpost.app.link/TR9Mb7TXFLb?mode=private&claimCode=w3li06hg0:IRM7L0BY
+
+
+# TO BUILD
+Download the repo and run  
+'''npm run package'''  
+in the directory.

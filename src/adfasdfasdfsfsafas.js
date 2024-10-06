@@ -1,0 +1,24 @@
+ javascript:
+                var x = 0;
+                var y = 0;
+                var z = 1;
+                var oldx = 0;
+                var oldy = 0;
+                var exp = 0;
+                onmousemove = function(e){
+                 z = 1;
+                 x = e.clientX;
+                 y = e.clientY;
+                };
+                
+                
+                function test() {
+                    exp = ((oldx-x)**2)**(1/2) + ((oldy-y)**2)**(1/2);
+                    
+                    oldx = x;
+                    oldy = y;
+                    document.getElementsByTagName('x-app')[0].shadowRoot.querySelector('x-theme').querySelector('x-coachmark-underlay').querySelector('x-editor').shadowRoot.querySelector('div').querySelector('hz-app-frame').querySelector('hz-active-add-on-manager').shadowRoot.querySelector('hz-active-add-on-view').shadowRoot.querySelector('x-panel').querySelector('add-on-entrypoint-panel').shadowRoot.querySelector('add-on-iframe-panel').shadowRoot.querySelector('add-on-iframe').shadowRoot.querySelector('add-on-iframe-slot').querySelector('iframe').contentWindow.postMessage(exp, '*');
+                    setTimeout(()=>{test()}, 1000);
+                };
+
+                test();
